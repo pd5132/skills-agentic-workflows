@@ -10,7 +10,9 @@ permissions:
   contents: read
   pull-requests: read
 engine:
+  engine:
   id: copilot
+  model: sonnet
   copilot-sdk: true
 tools:
   edit: true
